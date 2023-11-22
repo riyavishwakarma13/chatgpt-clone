@@ -19,8 +19,135 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  gap: 10px;
+  width: 260px;
   height: 100vh;
+  padding: 10px;
+  position: relative;
+}
+
+.logo {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.desktop-nav .previous-chat:hover {
+  background-color: rgba(95, 95, 95, 0.616);
+  cursor: pointer;
+}
+
+.new-chat-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.new-chat-outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 8px;
+}
+
+.pen-icon {
+  color: white;
+  height: 18px;
+  width: 18px;
+}
+
+.month {
+  color: rgb(102, 102, 102);
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.previous-chat {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  white-space: nowrap;
+  padding: 9px 12px;
+  border-radius: 5px;
+}
+
+.october,
+.august,
+.july {
+  margin: 6px 5px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}
+
+.upgrade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  padding: 5px 15px;
+}
+
+.upgrade:hover {
+  background-color: rgba(95, 95, 95, 0.616);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upgrade-icon {
+  color: white;
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 1px solid rgb(122, 122, 122);
+}
+
+.upgrade-text p {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  padding: 2px 0;
+  flex-direction: column;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0;
+  padding: 7px 15px;
+}
+
+.user:hover {
+  background-color: rgba(95, 95, 95, 0.616);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.username {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700;
 }
 
 .mobile-nav {
