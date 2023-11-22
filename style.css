@@ -211,6 +211,64 @@ main {
   width: 18px;
 }
 
+.input-position {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+}
+
+.input-div input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.input-div input::placeholder {
+  color: #999999;
+  font-size: 14px;
+}
+
+.input-div input:focus {
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(122, 122, 122, 0.555);
+  border-radius: 15px;
+  max-width: 760px;
+  width: 100%;
+  margin: 7px 5px;
+}
+
+.arrow-up-icon {
+  height: 28px;
+  width: 28px;
+  background-color: rgba(88, 88, 88, 0.555);
+  border-radius: 7px;
+}
+
+.decl {
+  color: rgb(189, 189, 189);
+  font-size: 12px;
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .main-div {
     flex-direction: column;
