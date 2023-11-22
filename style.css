@@ -173,11 +173,42 @@ ul {
 }
 
 main {
+  position: relative;
   background-color: var(--primary);
   color: white;
   padding: 10px 20px;
   width: 100%;
   height: 100vh;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  max-width: max-content;
+  gap: 4px;
+}
+
+.heading:hover {
+  cursor: pointer;
+  background-color: #2e303b;
+}
+
+.heading-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heading-title span {
+  color: #999999;
+}
+
+.chevron-down-icon {
+  color: white;
+  height: 18px;
+  width: 18px;
 }
 
 @media screen and (max-width: 768px) {
