@@ -46,7 +46,7 @@ ul {
 }
 
 .desktop-nav .previous-chat:hover {
-  background-color: rgba(95, 95, 95, 0.616);
+  background-color: rgba(63, 63, 63, 0.616);
   cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ ul {
 }
 
 .upgrade:hover {
-  background-color: rgba(95, 95, 95, 0.616);
+  background-color: rgba(63, 63, 63, 0.616);
   cursor: pointer;
   border-radius: 5px;
 }
@@ -143,7 +143,7 @@ ul {
 }
 
 .user:hover {
-  background-color: rgba(95, 95, 95, 0.616);
+  background-color: rgba(63, 63, 63, 0.616);
   cursor: pointer;
   border-radius: 5px;
 }
