@@ -275,6 +275,35 @@ main {
   text-align: center;
 }
 
+.suggestions {
+  border: 1px solid rgba(122, 122, 122, 0.555);
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.gridbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 760px;
+  width: 100%;
+}
+
+.stitle {
+  font-size: 14px;
+  color: rgb(189, 189, 189);
+  margin: 0;
+  padding-top: 5px;
+}
+
+.sdesc {
+  font-size: 12px;
+  color: rgb(126, 126, 126);
+  margin: 0;
+  padding: 5px 0;
+}
+
 @media screen and (max-width: 768px) {
   .main-div {
     flex-direction: column;
@@ -300,5 +329,15 @@ main {
   }
   .heading {
     margin-top: 38px;
+  }
+  .none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gridbox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
