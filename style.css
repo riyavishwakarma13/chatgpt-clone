@@ -173,6 +173,10 @@ ul {
   width: 18px;
 }
 
+header {
+  position: relative;
+}
+
 main {
   position: relative;
   background-color: var(--primary);
@@ -268,6 +272,7 @@ main {
   color: rgb(189, 189, 189);
   font-size: 12px;
   margin: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -278,6 +283,10 @@ main {
     display: none;
   }
   .mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -288,5 +297,8 @@ main {
     border-bottom: 1px solid rgba(122, 122, 122, 0.555);
     padding: 4px 13px;
     font-size: 14px;
+  }
+  .heading {
+    margin-top: 38px;
   }
 }
