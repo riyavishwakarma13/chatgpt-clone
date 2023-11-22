@@ -282,6 +282,11 @@ main {
   width: 100%;
 }
 
+.suggestions:hover {
+  cursor: pointer;
+  background-color: #40414f;
+}
+
 .gridbox {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -295,6 +300,7 @@ main {
   color: rgb(189, 189, 189);
   margin: 0;
   padding-top: 5px;
+  font-weight: bold;
 }
 
 .sdesc {
@@ -302,6 +308,28 @@ main {
   color: rgb(126, 126, 126);
   margin: 0;
   padding: 5px 0;
+}
+
+.hero-logo {
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
